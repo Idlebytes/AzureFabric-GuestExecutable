@@ -26,6 +26,8 @@ Note:
 The service fabric explorer can be monitored for the application health status using below URLs:
 
 http://localhost:19080/Explorer - Service Fabric Explorer
+
 http://{fabrictest.southindia.cloudapp.azure.com}:19080/Explorer - http endpoint for both unsecured and secured service fabric cluster. For secured cluster, we need to configure client certificate for authentication.
+
 http://{fabrictest.southindia.cloudapp.azure.com}:19000/Explorer - Deployment endpoint for secure service fabric cluster using visual studio.
 
